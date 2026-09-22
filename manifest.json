@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
   "name": "JD Disqualifier Checker",
-  "version": "3.0.0",
-  "description": "Scans job descriptions for disqualifying keywords.",
-  "permissions": ["activeTab", "scripting", "storage", "notifications"],
+  "version": "3.1.0",
+  "description": "Scans job descriptions for disqualifying keywords: Clearance, Hybrid, Onsite, In-Person, Travel, FedRAMP.",
+  "permissions": ["activeTab", "storage", "notifications"],
   "host_permissions": ["<all_urls>"],
   "action": {
     "default_popup": "popup.html",
