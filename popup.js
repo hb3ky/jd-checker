@@ -74,7 +74,7 @@ function renderResumeScreen(flagged, tabId) {
     `;
   }
 }
-
+//https://drive.google.com/file/d/1tyQtRjHivjhm5BBUTja7QHWnF_GU4mf2/view?usp=sharing
 async function jumpToKeyword(tabId, term) {
   try {
     await chrome.tabs.sendMessage(tabId, { type: "SCROLL_TO_KEYWORD", term });
